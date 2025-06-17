@@ -93,88 +93,8 @@ En GitHub:
 ### 10. Incluir URL del repositorio
 
 📎 [https://github.com/usuario/mi_pagina_web](https://github.com/usuario/mi_pagina_web)  
-*(Reemplazar con tu URL real)*
 
 ## ✅ Conclusión y Recomendación
 
 El uso de Git y GitHub facilita significativamente el control de versiones, la organización del código y el trabajo colaborativo en proyectos de desarrollo. A través de este ejercicio práctico se aprendió a inicializar un repositorio, gestionar ramas, realizar commits y publicar el trabajo en un entorno remoto. Se recomienda aplicar esta metodología en todos los proyectos, manteniendo buenas prácticas como el uso de ramas para nuevas funcionalidades, commits descriptivos y respaldo constante en GitHub para asegurar la trazabilidad y la colaboración efectiva.
 
----
-
-## 📄 README del Proyecto
-
-# Proyecto: Mi Página Web
-
-Este repositorio contiene un proyecto básico de una página web desarrollado como práctica para aprender a usar Git y GitHub de manera estructurada, aplicando control de versiones, ramas y colaboración remota.
-
-## 📁 Paso 1: Crear un nuevo directorio
-
-```bash
-mkdir mi_pagina_web
-cd mi_pagina_web
-```
-
-## 🧱 Paso 2: Inicializar un repositorio Git
-
-```bash
-git init
-```
-
-## 📝 Paso 3: Crear archivo index.html
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mi Página Web</title>
-</head>
-<body>
-    <h1>Bienvenido a mi sitio</h1>
-</body>
-</html>
-```
-
-## 📌 Paso 4: Agregar archivo al repositorio y hacer commit
-
-```bash
-git add index.html
-git commit -m "Inicialización del proyecto con index.html"
-```
-
-## 🌿 Paso 5: Crear una nueva rama llamada `NuevaSeccion`
-
-```bash
-git branch NuevaSeccion
-git switch NuevaSeccion
-```
-
-## 🧩 Paso 6: Agregar sección “Sobre Nosotros”
-
-```html
-<section>
-    <h2>Sobre Nosotros</h2>
-    <p>Somos un equipo apasionado por la tecnología.</p>
-</section>
-```
-
-## 💾 Paso 7: Guardar los cambios y hacer commit
-
-```bash
-git add index.html
-git commit -m "Agregada sección Sobre Nosotros"
-```
-
-## 🌐 Paso 8: Subir el repositorio a GitHub
-
-```bash
-git remote add origin https://github.com/usuario/mi_pagina_web.git
-git push -u origin NuevaSeccion
-```
-
-## 👥 Paso 9: Agregar colaborador
-
-Desde GitHub: Settings > Collaborators > Añadir usuario > Enviar invitación
-
-## 🔗 Paso 10: URL del repositorio
-
-[https://github.com/usuario/mi_pagina_web](https://github.com/usuario/mi_pagina_web)
